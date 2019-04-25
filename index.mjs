@@ -155,6 +155,14 @@ export default function outspoken({ source, options }) {
     // run program.mjs
   }
 
+
+  function run() {
+    return new Promise((resolve, reject) => {
+      console.info('Run promise ran...')
+      resolve(true);
+    });
+  }
+
   const response = {
     debug:programs,
 
@@ -162,6 +170,8 @@ export default function outspoken({ source, options }) {
     compile,
     test,
     serve,
+
+    run,
   }
 
   return response;
