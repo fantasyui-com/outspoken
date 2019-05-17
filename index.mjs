@@ -138,38 +138,23 @@ export default function outspoken({ source, options }) {
 
   // console.log(JSON.stringify(programs, null, ' '));
 
-  const ready = function(){
-    // check if all modules are present
-  }
-
-  const compile = function(){
-    // create program.mjs
-    // create testing.mjs
-  }
-
-  const test = function(){
-    // run testing.mjs
-  }
-
-  const serve = function(){
-    // run program.mjs
-  }
 
 
+  /*
+  RUN FUNCTION is to short circuit to expose what may be needed
+
+  */
   function run() {
+
     return new Promise((resolve, reject) => {
       console.info('Run promise ran...')
       resolve(true);
     });
+
   }
 
   const response = {
     debug:programs,
-
-    ready,
-    compile,
-    test,
-    serve,
 
     run,
   }

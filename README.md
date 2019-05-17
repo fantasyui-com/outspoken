@@ -1,6 +1,10 @@
 # outspoken
 Outspoken is a Cucumber Inspired Functional Reactive Programming Language for Normal Humans
 
+## About
+
+Outspoken is a text data analysis module used by https://github.com/fantasyui-com/brd a command line project management application.
+
 ## Introduction
 
 Program structure is reduced to "package-name: Package Description" as this allows for moving and reusing lines.
