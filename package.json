@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/fantasyui-com/outspoken#readme",
   "dependencies": {
-    "project-name-generator": "^2.1.6",
+    "project-name-generator": "^2.1.7",
     "xregexp": "^4.2.4"
   }
 }
