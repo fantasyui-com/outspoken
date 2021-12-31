@@ -4,7 +4,8 @@
   "description": "Outspoken is a Cucumber Inspired Functional Reactive Programming Language for Normal Humans",
   "main": "index.mjs",
   "scripts": {
-    "test": "test.js"
+    "test": "test.js",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "keywords": [
     "lang"
   ],
-  "author": "fantasyui-com",
+  "author": "fantasyui.com <fantasyui.com@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/fantasyui-com/outspoken/issues"
