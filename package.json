@@ -1,6 +1,6 @@
 {
   "name": "outspoken",
-  "version": "1.17.0",
+  "version": "1.18.0",
   "description": "Outspoken is a Cucumber Inspired Functional Reactive Programming Language for Normal Humans",
   "main": "index.mjs",
   "scripts": {
